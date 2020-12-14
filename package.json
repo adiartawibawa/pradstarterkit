@@ -1,0 +1,26 @@
+{
+  "name": "pradstarterkit",
+  "version": "1.0.0",
+  "description": "Web starter kit of PRADStudio",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/src/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiartawibawa/pradstarterkit.git"
+  },
+  "author": "Adi Arta Wibawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adiartawibawa/pradstarterkit/issues"
+  },
+  "homepage": "https://github.com/adiartawibawa/pradstarterkit#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
